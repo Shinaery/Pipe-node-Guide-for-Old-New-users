@@ -112,16 +112,16 @@ screen -r pipe
 1.For Local PC 
 
 ```
-sudo cp -r /mnt/c/Users/bhaty/Downloads/File /opt/popcache/
+sudo cp -r /mnt/c/Users/boboi/Downloads/File /opt/popcache/
 ```
-Replace "c/Users/bhaty/Downloads/File" to your Actual File Path in ur System
+Replace "c/Users/boboi/Downloads/File" to your Actual File Path in ur System
 
 2. For VPS (Run in Command Prompt or use termius drag and drop as shown in my previous clip posted on my X)
 
 ```
-scp -r "C:\Users\bhaty\Downloads\File" root@VPS_IP:/opt/popcache/
+scp -r "C:\Users\boboi\Downloads\File" root@VPS_IP:/opt/popcache/
 ```
-Replace "C:\Users\bhaty\Downloads\File" to your Actual File Path in ur System and VPS_IP with ur Actual VPS IP
+Replace "C:\Users\boboi\Downloads\File" to your Actual File Path in ur System and VPS_IP with ur Actual VPS IP
 
 Verify fill location
 ```
@@ -129,7 +129,7 @@ ls /opt/popcache
 ```
 
 ```
-sudo tar -xzf pop-v0.3.0-linux-*.tar.gz
+sudo tar -xzf pop-v0.3.2-linux-*.tar.gz
 ```
 ```
 sudo chmod +x /opt/popcache/pop
